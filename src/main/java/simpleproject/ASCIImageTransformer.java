@@ -17,7 +17,7 @@ import io.korhner.asciimg.image.character_fit_strategy.StructuralSimilarityFitSt
 import io.korhner.asciimg.image.converter.AsciiToImageConverter;
 import io.korhner.asciimg.image.converter.AsciiToStringConverter;
 
-@Component
+
 public class ASCIImageTransformer implements Image2AsciiTransformer {
 
 	public String transform(String file, int size) {

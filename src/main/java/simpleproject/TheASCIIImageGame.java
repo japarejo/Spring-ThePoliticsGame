@@ -19,16 +19,16 @@ import org.springframework.stereotype.Component;
 import com.github.lalyos.jfiglet.FigletFont;
 import com.google.common.collect.Lists;
 
-@Component
+
 public class TheASCIIImageGame implements Game {
 
-	@Value("${itemType}")
+	
 	String itemType;
 	
-	@Value("${trials}")
+	
 	int trials;
 
-	@Autowired
+	
 	Image2AsciiTransformer transformer;
 
 	public void partida() {
