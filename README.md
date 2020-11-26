@@ -53,3 +53,5 @@ MM&MM&kMM#MMMMMMMMM#M#MMM#&Q#MQW#MMWM&&&kk&&&&&&k&&&&&M#MMM&&#MM&&&&
 M&&MMM&#MMM#MM#M###MM#MMMMMMMMMMMMM#&&&&#&&&&&&&&&&&&&k#MM&&#Mk&&&&&
 M&&&MM&##MMMM#MMMMMMMMMM##MMMMMMMM#M&&&#M&&&&&&m#&&&&M##M&&#M&&&&&&&
 ```
+
+mvn install:install-file -Dfile=/home/alumno/Descargas/asciimg-1.00-SNAPSHOT.jar -DgroupId=io.kohner -DartifactId=asciimg -Dversion=1.00-SNAPSHOT -Dpackaging=jar
