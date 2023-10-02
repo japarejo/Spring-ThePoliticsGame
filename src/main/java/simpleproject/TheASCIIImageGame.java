@@ -23,10 +23,10 @@ import com.google.common.collect.Lists;
 public class TheASCIIImageGame implements Game {
 
 	
-	String itemType;
+	String itemType="politician";
 	
 	
-	int trials;
+	int trials=2;
 
 	
 	Image2AsciiTransformer transformer;
